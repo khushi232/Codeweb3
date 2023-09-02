@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cssactive9 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="css" href="#">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">CSS Tutorial </h4>
+            <div class="links">
+                <a href="css.html" id="cssactive1">CSS Home</a>
+                <a href="css_intro.html" id="cssactive2">CSS Introduction</a>
+                <a href="css_syntax.html" id="cssactive3">CSS Syntax</a>
+                <a href="css_selectors.html" id="cssactive">CSS Selectors </a>
+                <a href="css_howto.html" id="cssactive5">CSS How To</a>
+                <a href="css_comments.html" id="cssactive6">CSS Comments</a>
+                <a href="css_margins.html" id="cssactive7">CSS Margin</a>
+                <a href="css_padding.html" id="cssactive8">CSS Padding</a>
+                <a href="css_dimension.html" id="cssactive9">CSS Height/Width</a>
+                <a href="css_boxmodel.html" id="cssactive10">CSS Box Model</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">CSS Height, Width and Max-width
+            <!-- <button style="padding-right:39px;" class=" btn right  fs-6 menu " type="button" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button> -->
+        </h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="css_padding.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_boxmodel.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-3 mb-5 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5">The CSS height and width properties are used to set
+                        the height and width of an element.</p>
+
+                    <p class="ps-3 fs-5"> The CSS max-width property is used to set the
+                        maximum width of an element.</p>
+
+                    </p>
+                    <p class="ms-3 border border-5 fs-5" style="height: 50px; width: 1400px; ">
+                        This
+                        element
+                        has a height of 50 pixels and a width of 100%.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 pt-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS Setting height and width</h4>
+                    <p class="ps-3 fs-5 pt-2">The height and width properties are used to set the
+                        height and width of an element.</p>
+
+                    <p class="ps-3 fs-5 pt-2">The height and width properties do not include
+                        padding, borders, or margins. It sets the height/width of the area inside the padding,
+                        border,
+                        and margin of the element.</p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 pt-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS height and width Values</h4>
+                    <p class="ps-3 fs-5 pt-2">The height and width properties may have the
+                        following values:</p>
+
+                    <ul style="font-size:20px; margin-left:40px;">
+
+                        <li>auto - This is default. The browser calculates the height and width</li>
+                        <li> length - Defines the height/width in px, cm, etc.</li>
+                        <li>% - Defines the height/width in percent of the containing block</li>
+                        <li>initial - Sets the height/width to its default value</li>
+                        <li>inherit - The height/width will be inherited from its parent value</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 ">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS height and width Examples</h4>
+
+
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mt-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2"> Set the height and width of a
+                                &lt;div&gt; element:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 pb-3 fs-6">
+
+                                    <p>This is a paragraph.</p>
+                                    <div class="style4 w-50 bg-info bg-opacity-25"> This div element has a height
+                                        of
+                                        200px
+                                        and a width of 50%.
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">div</span> {<br>
+                                    <span class="r">height</span> : <span class="b">200px</span>;<br>
+                                    <span class="r">width</span> : <span class="b">50%</span>;<br>
+                                    <span class="r">background-color</span> : <span
+                                        class="b">powderblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">div</span>&gt;</span>
+                                    <span class="bk">This div element has a height of 200px and a width of
+                                        50%.</span>
+                                    <span class="b">&lt;<span class="br">/div</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mt-5">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2"> Set the height and width of another
+                                &lt;div&gt; element:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white py-3 fs-6">
+
+                                    <p>This is a paragraph.</p>
+                                    <div class="styles bg-info bg-opacity-25 "> This div element has a height of
+                                        100px
+                                        and a width of
+                                        500px.
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">div</span> {<br>
+                                    <span class="r">height</span> : <span class="b">100px</span>;<br>
+                                    <span class="r">width</span> : <span class="b">500px</span>;<br>
+                                    <span class="r">background-color</span> : <span
+                                        class="b">powderblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">div</span>&gt;</span>
+                                    <span class="bk">This div element has a height of 100px and a width of
+                                        500px.</span>
+                                    <span class="b">&lt;<span class="br">/div</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start py-3 h-auto mt-2 lh-base ">
+
+                        <p class="ps-3 fs-5"><span class="fw-semibold">Note:</span> Remember that the height
+                            and
+                            width properties do not include padding, borders, or margins! They set the height/width
+                            of
+                            the area inside
+                            the
+                            padding, border, and margin of the element!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Setting max-width</h4>
+                    <p class="ps-3 fs-5 pt-2">The <span class="pink">max-width</span> property is used
+                        to set the maximum width of an element.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2"> The <span class="pink">max-width</span> can be
+                        specified in length values, like px, cm, etc., or in percent (%) of the containing block, or
+                        set
+                        to
+                        none (this is default. Means that there is no maximum width).
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">The problem with the
+                        &lt;div&gt; above occurs when the browser window is smaller than the <span
+                            class="pink">width</span>
+                        of the element (500px). The browser then adds a horizontal scrollbar to the page.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">Using <span class="pink">max-width</span> instead, in
+                        this situation, will improve the browser's handling of small windows.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2"><span class="fw-semibold">Tip:</span> Drag the
+                        browser
+                        window to smaller than 500px wide, to see the difference between the two divs!
+                    </p>
+                    <p class="ps-3 fs-5 pt-2"><span class="fw-semibold">Note:</span> If you for some
+                        reason use both the <span class="pink">width</span> property and the <span
+                            class="pink">max-width</span> property on the same element, and the value of the <span
+                            class="pink">width</span> property is larger than the <span class="pink">max-width</span>
+                        property; the <span class="pink">max-width</span> property will be used (and the <span
+                            class="pink">width</span> property will be ignored).
+                    </p>
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2"> This
+                                &lt;div&gt; element has a height of 100 pixels and a max-width of 500 pixels: </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white py-3 fs-6">
+
+                                    <p>This is a paragraph.</p>
+                                    <div class="style5 bg-info bg-opacity-25">This element has a height of 100
+                                        pixels
+                                        and a max-width of 500
+                                        pixels.</div>
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">div</span> {<br>
+                                    <span class="r">height</span> : <span class="b">100px</span>;<br>
+                                    <span class="r">max-width</span> : <span class="b">500px</span>;<br>
+                                    <span class="r">background-color</span> : <span
+                                        class="b">powderblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">div</span>&gt;</span>
+                                    <span class="bk">This element has a height of 100 pixels and a max-width of 500
+                                        pixels.</span>
+                                    <span class="b">&lt;<span class="br">/div</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Button -->
+        <div class="nextprev pb-5 ms-2 my-3">
+
+            <a href="css_padding.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_boxmodel.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+
+        <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

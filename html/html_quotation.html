@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #active10 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role=" button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+            </a>
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="html" aria-current="page" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../css/css.html">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">HTML TUTORIAL</h4>
+            <div class="links">
+                <a href="html.html" id="active1">HTML Home</a>
+                <a href="html_intro.html" id="active2">HTML Introduction</a>
+                <a href="html_editors.html" id="active3">HTML Editors</a>
+                <a href="html_basic.html" id="active4">HTML Basic </a>
+                <a href="html_elements.html" id="active15">HTML Elements</a>
+                <a href="html_headings.html" id="active6">HTML heading</a>
+                <a href="html_paragraphs.html" id="active7">HTML Paragraphs</a>
+                <a href="html_styles.html" id="active8">HTML Styles</a>
+                <a href="html_formatting.html" id="active9">HTML Formatting</a>
+                <a href="html_quotation.html" id="active10">HTML Quotation</a>
+                <a href="html_comments.html" id="active11">HTML Comments</a>
+                <a href="html_favicon.html" id="active12">HTML Favicon</a>
+                <a href="html_list.html" id="active13">HTML Lists</a>
+                <a href="html_block.html" id="active14">HTML Block and Inline</a>
+            </div>
+        </div>
+    </div>
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">HTML Quotation and Citation Elements
+
+        </h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="html_formatting.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="html_comments.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-3 mb-5 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5">In this chapter we will go through the
+                        <span class="pink">&lt;blockquote&gt;</span>, <span class="pink">&lt;q&gt;</span>,
+                        <span class="pink">&lt;abbr&gt;</span>,
+                        <span class="pink">&lt;address&gt;</span>,
+                        <span class="pink">&lt;cite&gt;</span>and
+                        <span class="pink">&lt;bdo&gt;</span> HTML elements.
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">HTML &lt;blockquote&gt; for Quotations</h4>
+                    <p class="ps-3 fs-5 pt-2">The HTML
+                        <span class="pink">&lt;blockquote&gt;</span> element defines a section that is quoted from
+                        another source.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">Browsers usually indent
+                        <span class="pink">&lt;blockquote&gt;</span> elements.
+                    </p>
+
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>Here is a quote from WWF's website:</p>
+
+                                    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                                        For 60 years, WWF has worked to help people and nature thrive. As the
+                                        world's leading conservation organization, WWF works in nearly 100
+                                        countries. At every level, we collaborate with people around the world to
+                                        develop and deliver innovative solutions that protect communities, wildlife,
+                                        and the places in which they live.
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    Here is a quote from WWF's website:
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">blockquote</span></span>
+                                    <span class="r">cite</span><span
+                                        class="b">="http://www.worldwildlife.org/who/index.html"&gt;</span><br>
+                                    For 60 years, WWF has worked to help people and nature thrive. As the world's
+                                    leading conservation organization, WWF works in nearly 100 countries. At every
+                                    level, we collaborate with people around the world to develop and deliver
+                                    innovative solutions that protect communities, wildlife, and the places in which
+                                    they live.
+                                    <br><span class="b">&lt;<span class="br">/blockquote</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--line3-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML &lt;q&gt; for Short Quotations</h4>
+                <p class="ps-3 fs-5 pt-2">The HTML <span class="pink">&lt;q&gt;</span> tag
+                    defines a short quotation.
+                </p>
+                <p class="ps-3 fs-5 pt-2">Browsers normally insert quotation
+                    marks around the
+                    quotation.
+                </p>
+
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 bg-white pt-3 fs-6">
+                                <p>WWF's goal is to: <q>Build a future where people live in harmony with
+                                        nature.</q></p>
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                WWF's goal is to:
+                                <span class="b">&lt;<span class="br">q</span>&gt;</span>
+                                Build a future where people live in harmony with nature.
+                                <span class="b">&lt;<span class="br">/q</span>&gt;</span>
+                                <span class="b">&lt;<span class="br">/p</span>&gt;</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--line4-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML &lt;abbr&gt; for Abbreviations</h4>
+                <p class="ps-3 fs-5 pt-2">The HTML <span class="pink">&lt;abbr&gt;</span> tag
+                    defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+                </p>
+                <p class="ps-3 fs-5 pt-2">Marking abbreviations can give useful information to
+                    browsers, translation systems and search-engines.</p>
+                <p class="ps-3 fs-5 pt-2"> <span class="fw-semibold">Tip:</span> Use the
+                    global title attribute to show the description for the abbreviation/acronym when you mouse over
+                    the element.</p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 bg-white pt-3 fs-6">
+                                <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+                                </p>
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                The <span class="b">&lt;<span class="br">abbr</span></span><span class="r">
+                                    title</span><span class="b">="World Health Organization"&gt;</span>WHO<span
+                                    class="b">&lt;<span class="br">/abbr</span>&gt;</span> was founded in 1948.
+                                <span class="b">&lt;<span class="br">/p</span>&gt;</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--line5-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML &lt;address&gt; for Contact Information</h4>
+                <p class="ps-3 fs-5 pt-2">The HTML
+                    <span class="pink">&lt;address&gt;</span> tag defines the contact information for the
+                    author/owner of a document or an article.
+                </p>
+                <p class="ps-3 fs-5 pt-2">The contact information can be an email address,
+                    URL, physical address, phone number, social media handle, etc.</p>
+                <p class="ps-3 fs-5 pt-2"> The text in the
+                    <span class="pink">&lt;address&gt;</span> element usually renders in italic, and btext-start
+                    w-100sers will
+                    always add a line break before and after the
+                    <span class="pink">&lt;address&gt;</span> element.
+
+                </p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary ">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 bg-white pt-3 fs-6">
+                                <address>
+                                    Written by John Doe.<br>
+                                    Visit us at:<br>
+                                    Example.com<br>
+                                    Box 564, Disneyland<br>
+                                    USA
+                                </address>
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">address</span>&gt;</span><br>
+                                <span class="b">
+                                    Written by John Doe. <span class="b">&lt;<span class="br">br</span>&gt;</span><br>
+                                    Visit us at:<span class="b">&lt;<span class="br">br</span>&gt;</span><br>
+                                    Example.com<span class="b">&lt;<span class="br">br</span>&gt;</span><br>
+                                    Box 564, Disneyland<span class="b">&lt;<span class="br">br</span>&gt;</span><br>
+                                    USA
+                                </span><br>
+                                <span class="b">&lt;<span class="br">/address</span>&gt;</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--line6-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML &lt;cite&gt; for Work Title</h4>
+                <p class="ps-3 fs-5 pt-2">The HTML <span class="pink">&lt;cite&gt;</span> tag
+                    defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a
+                    sculpture, etc.).
+                </p>
+                <p class="ps-3 fs-5 pt-2"><span class="pink">Note:</span> A person's name is
+                    not the title of a work.</p>
+                <p class="ps-3 fs-5 pt-2"> The text in the <span class="pink">&lt;cite&gt;</span> element usually
+                    renders in <i>italic</i>.
+
+                </p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 bg-white pt-3 fs-6">
+                                <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                The <span class="b">&lt;<span class="br">cite</span></span>The Scream<span
+                                    class="b">&lt;<span class="br">/cite</span>&gt;</span> by Edvard Munch.
+                                Painted in 1893.
+                                <span class="b">&lt;<span class="br">/p</span>&gt;</span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--line6-->
+    <div class="container-fluid border border-start-0 py-4 ">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML &lt;bdo&gt; for Bi-Directional Override</h4>
+                <p class="ps-3 fs-5 pt-2">BDO stands for Bi-Directional Override.
+                </p>
+                <p class="ps-3 fs-5 pt-2">The HTML <span class="pink">&lt;bdo&gt;</span> tag
+                    is used to override the current text direction:</i>.
+
+                </p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 bg-white pt-3 fs-6">
+                                <bdo dir="rtl">This text will be written from right to left</bdo>
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">bdo</span></span>
+                                <span class="r">dir</span><span class="b"> = "rtl"&gt;</span> text will be
+                                written from right to left
+                                <span class="b">&lt;<span class="br">/bdo</span>&gt;</span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="html_formatting.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="html_comments.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

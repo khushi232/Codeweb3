@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cssactive6 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="css" href="#">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">CSS Tutorial </h4>
+            <div class="links">
+                <a href="css.html" id="cssactive1">CSS Home</a>
+                <a href="css_intro.html" id="cssactive2">CSS Introduction</a>
+                <a href="css_syntax.html" id="cssactive3">CSS Syntax</a>
+                <a href="css_selectors.html" id="cssactive">CSS Selectors </a>
+                <a href="css_howto.html" id="cssactive5">CSS How To</a>
+                <a href="css_comments.html" id="cssactive6">CSS Comments</a>
+                <a href="css_margins.html" id="cssactive7">CSS Margin</a>
+                <a href="css_padding.html" id="cssactive8">CSS Padding</a>
+                <a href="css_dimension.html" id="cssactive9">CSS Height/Width</a>
+                <a href="css_boxmodel.html" id="cssactive10">CSS Box Model</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">CSS Comments
+
+        </h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="css_howto.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_margins.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-3 mb-5 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5">CSS comments are not displayed in the btext-start
+                        w-100ser, but they
+                        can help document your source code.
+
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mb-3">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS Comments</h4>
+                    <p class="ps-3 fs-5 pt-2">Comments are used to explain the code, and may help
+                        when you edit the source code at a later date.</p>
+
+                    <p class="ps-3 fs-5 pt-2"> Comments are ignored by browsers. </p>
+                    <p class="ps-3 fs-5 pt-2">A CSS comment is placed inside the <span
+                            class="pink">&lt;style&gt;</span>element, and starts with <span class="pink">/*</span>
+                        and
+                        ends with <span class="pink">*/</span> :
+
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="g">
+                                        &lt;!-- This is a single line comment --&gt;
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="ps-3 fs-5 pt-3 ">Comments can also span multiple lines: </p>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="g">
+                                        &lt;!-- This is <br>a multi-line <br>comment --&gt;
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary ">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start pt-2 h-auto mt-2 lh-base ">
+                        <p class="ps-3 fs-5"><span class="fw-semibold">Note:</span> Comments are not
+                            displayed by the browser, but they can help document your HTML source code.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4 mt-4 ">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">HTML and CSS Comments</h4>
+                    <p class="ps-3 fs-5 pt-2">From the HTML tutorial, you learned that you can add
+                        comments to your HTML source by using the
+                        <span class="pink">
+                            &lt;!--...--&gt;
+                        </span> syntax.
+                    </p>
+
+                    <p class="ps-3 fs-5 pt-2">In the following example, we use a combination of HTML
+                        and CSS comments:
+                    </p>
+
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="g">&lt;!-- This is a HTML comment --&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    This is a paragraph.
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="g">/* This is a CSS comment */</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="css_howto.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="css_margins.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

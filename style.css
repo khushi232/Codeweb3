@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.change {
+    color: white;
+    border: 1px solid none;
+    padding: 25px;
+}
+
+.change:hover {
+    color: white;
+    border: 1px solid none;
+    background-color: #02718c;
+    padding: 25px;
+}
+
+/* navbar2 */
+
+
+.text {
+    color: white !important;
+}
+
+.text:hover {
+    color: #02718c !important;
+}
+
+.text2 {
+    color: white !important;
+    margin-right: 10px;
+
+}
+
+.text2:hover {
+    color: whitesmoke !important;
+    background-color: #02718c;
+    margin-right: 10px;
+}
+
+.left {
+
+    float: left !important;
+}
+
+
+.c {
+    background-color: #12adb5;
+}
+
+.card-color {
+    height: 90%;
+}
+
+.button1 {
+    width: 10%;
+    background-color: #02718c;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    display: inline;
+    border-radius: 25px;
+    padding: 10px 55px;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: #0d8ba0;
+    color: white;
+    padding: 12px 57px;
+    font-size: 21px;
+}
+
+.load {
+    background-color: #02718c;
+    font-size: 100px;
+
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #02718c;
+
+}

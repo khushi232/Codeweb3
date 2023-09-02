@@ -1,0 +1,143 @@
+      * {
+          margin: 0px;
+          padding: 0px;
+          font-family: 'Poppins', sans-serif;
+      }
+
+      .change {
+          color: white;
+          border: 1px solid none;
+          padding: 25px;
+      }
+
+      .change:hover {
+          color: white;
+          border: 1px solid none;
+          background-color: #02718c;
+          padding: 25px;
+      }
+
+      #html {
+          color: #0d8ba0 !important;
+      }
+
+      .text {
+          color: white !important;
+
+      }
+
+      .text:hover {
+          color: #02718c !important;
+
+      }
+
+      .text2 {
+          background-color: black;
+          float: left !important;
+      }
+
+      .text2:hover {
+          background-color: #02718c;
+      }
+
+      .heading {
+          background-color: #0d8ba0;
+
+
+      }
+
+
+
+      .nextprev a.right,
+      .nextprev a.left {
+          background-color: #0d8ba0;
+          color: #ffffff;
+          border-color: #12adb5;
+
+      }
+
+      .right {
+          float: right !important;
+      }
+
+      .left {
+          float: left !important;
+      }
+
+      .links a {
+          text-decoration: none;
+          padding-left: 25px;
+          font-size: 20px;
+          color: black;
+          display: block;
+
+      }
+
+      .links a:active {
+          color: white;
+          background-color: #0d8ba0;
+      }
+
+      .links a:hover {
+          background-color: grey;
+          color: white;
+      }
+
+      .r {
+          color: red;
+      }
+
+      .br {
+          color: brown;
+      }
+
+      .link {
+          color: black;
+
+      }
+
+      .g {
+          color: green;
+      }
+
+      .bk {
+          color: black;
+      }
+
+      .o {
+          color: goldenrod;
+      }
+
+
+      .link:hover {
+          color: blue;
+      }
+
+      .pink {
+          color: #ff1493;
+      }
+
+      .b {
+          color: blue;
+      }
+
+
+
+      .btn {
+          font-size: 16px;
+          background-color: black;
+          color: white;
+          border: 1px white solid;
+          padding: 6px;
+          border-radius: 5px;
+          margin-right: 10px;
+      }
+
+      .btn:hover {
+          background-color: #02718c;
+
+      }
+
+      .codeweb {
+          width: 190px;
+      }

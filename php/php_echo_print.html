@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #phpactive8 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid ">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../css/css.html">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="php" href="#">PHP</a>
+                    </li>
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">PHP TUTORIAL</h4>
+            <div class="links">
+                <a href="php.html" id="phpactive1">PHP Home</a>
+                <a href="php_intro.html" id="phpactive2">PHP Intro</a>
+                <a href="php_install.html" id="phpactive3">PHP Install</a>
+                <a href="php_syntax.html" id="phpactive4">PHP Syntax</a>
+                <a href="php_comments.html" id="phpactive5">PHP Comments</a>
+                <a href="php_variables.html" id="phpactive6">PHP Variables</a>
+                <a href="php_variables_scope.html" id="phpactive7">PHP Variables Scope</a>
+
+                <a href="php_echo_print.html" id="phpactive8">PHP Echo and Print</a>
+                <a href="php_data_types.html" id="phpactive9">PHP Data Types</a>
+                <a href="php_strings.html" id="phpactive10">PHP Strings</a>
+                <a href="php_numbers.html" id="phpactive11">PHP Numbers</a>
+                <a href="php_math.html" id="phpactive12">PHP Math</a>
+                <a href="php_operators.html" id="phpactive13">PHP Operators</a>
+                <a href="php_if_else.html" id="phpactive14">PHP if...else...elseif</a>
+                <a href="php_switch.html" id="phpactive15">PHP Switch</a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">PHP Echo and Print Statements
+
+        </h4>
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="php_variables_scope.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="php_data_types.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line-->
+        <div class="container-fluid border border-start-0  py-4">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5 pt-2">With PHP, there are two basic ways to get output: <span
+                            class="pink">echo</span> and <span class="pink">print</span>.</p>
+                    <p class="ps-3 fs-5 pt-2">In this tutorial we use <span class="pink">echo</span>
+                        or <span class="pink">print</span> in almost every example. So, this chapter contains a little
+                        more
+                        info about those two output statements.</p>
+                </div>
+            </div>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 mt-5 py-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP echo and print Statements</h4>
+                    <p class="ps-3 fs-5 pt-2"><span class="pink">echo</span> and <span class="pink">print</span> are
+                        more or
+                        less the same. They are both used to output data to the
+                        screen.</p>
+                    <p class="ps-3 fs-5 pt-2">The differences are small: <span class="pink">echo</span> has no
+                        return value
+                        while <span class="pink">print</span> has a return
+                        value of 1 so it can be used in expressions. <span class="pink">echo</span> can take
+                        multiple
+                        parameters (although such usage is rare) while <span class="pink">print</span> can take one
+                        argument. <span class="pink">echo</span> is marginally faster than <span
+                            class="pink">print</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0  py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The PHP echo Statement</h4>
+                    <p class="ps-3 fs-5 pt-2">The <span class="pink">echo</span> statement can be used
+                        with or without parentheses: <span class="pink">echo</span> or <span class="pink">echo()</span>.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2"><span class="fw-semibold">Display Text</span><br>The following
+                        example shows how to output text with the <span class="pink">echo</span> command (notice
+                        that the
+                        text can contain HTML markup):</p>
+                </div>
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>PHP is Fun!</h4>
+                                    <p> Hello world!<br>
+                                        I'm about to learn PHP!<br>
+                                        This string was made with multiple parameters.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"&lt;h4&gt;PHP is Fun!&lt;/h4&gt;"</span>;<br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"Hello World!&lt;br&gt;"</span>;<br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"I/m about to learn PHP!"</span>;<br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"This " </span>;
+                                    <span class="br"> "string " </span>;
+                                    <span class="br"> "was " </span>;
+                                    <span class="br"> "made " </span>;
+                                    <span class="br"> "with multiple parameters."</span>;
+                                    <br><span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="fs-5 ps-3 pt-4"><span class="fw-semibold">Display Variables</span><br>
+
+                    The following example shows how to output text and variables with the <span class="pink">echo</span>
+                    statement:
+                </p>
+                <!-- code2 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary ">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5">Variable with local scope:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>Learn PHP</h4>
+                                    <p> Study PHP at Codeweb.com<br>
+                                        9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--html-->
+                    <h4 class="ms-3 py-3 fs-5 fw-semibold">HTML</h4>
+                    <div class="row mx-3 text-dark">
+                        <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                            <span class="r">&lt;?php</span><br>
+                            <span class="bk">$txt1 = <span class="br">"Learn PHP"</span>;</span><br>
+                            <span class="bk">$txt2 = <span class="br">"Codeweb.com"</span>;</span><br>
+                            <span class="bk">$x = <span class="r">5</span>;</span><br>
+                            <span class="bk">$y = <span class="r">4</span>;</span><br><br>
+                            <span class="b">echo</span>
+                            <span class="br">"&lt;h4&gt;"<span class="bk"> . $txt1 .
+                                </span>"&lt;/h4&gt;"</span>;<br>
+                            <span class="b">echo</span>
+                            <span class="br">"Study PHP at " <span class="bk"> . $txt2 .
+                                </span>"&lt;br&gt;"</span>;<br>
+                            <span class="b">echo</span>
+                            <span class="bk">$x + $y;</span>
+                            <br><span class="r">?&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The PHP print Statement</h4>
+                    <p class="ps-3 fs-5 pt-2">The <span class="pink">print</span> statement can be
+                        used with or without parentheses: <span class="pink">print</span> or <span
+                            class="pink">print()</span>.</p>
+                    <p class="ps-3 fs-5 pt-2"><span class="">Display Text</span><br><br>The following
+                        example shows how to output text with the <span class="pink">print</span> command
+                        (notice that the
+                        text can contain HTML markup):</p>
+                </div>
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>PHP is Fun!</h4>
+                                    <p> Hello world!<br>
+                                        I'm about to learn PHP!<br>
+                                        This string was made with multiple parameters.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="b">print</span>
+                                    <span class="br">"&lt;h4&gt;PHP is Fun!&lt;/h4&gt;"</span>;<br>
+                                    <span class="b">print</span>
+                                    <span class="br">"Hello World!&lt;br&gt;"</span>;<br>
+                                    <span class="b">print</span>
+                                    <span class="br">"I/m about to learn PHP!"</span>;<br>
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- code2 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mt-5">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5">Variable with local scope:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>Learn PHP</h4>
+                                    <p> Study PHP at Codeweb.com<br>
+                                        9</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$txt1 = <span class="br">"Learn PHP"</span>;</span><br>
+                                    <span class="bk">$txt2 = <span class="br">"Codeweb.com"</span>;</span><br>
+                                    <span class="bk">$x = <span class="r">5</span>;</span><br>
+                                    <span class="bk">$y = <span class="r">4</span>;</span><br><br>
+                                    <span class="b">print</span>
+                                    <span class="br">"&lt;h4&gt;"<span class="bk"> . $txt1 .
+                                        </span>"&lt;/h4&gt;"</span>;<br>
+                                    <span class="b">print</span>
+                                    <span class="br">"Study PHP at " <span class="bk"> . $txt2 .
+                                        </span>"&lt;br&gt;"</span>;<br>
+                                    <span class="b">print</span>
+                                    <span class="bk">$x + $y;</span>
+                                    <br><span class="r">?&gt;</span> <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="php_variables_scope.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="php_data_types.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

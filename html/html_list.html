@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #active13 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role=" button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+            </a>
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="html" aria-current="page" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../css/css.html">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">HTML TUTORIAL</h4>
+            <div class="links">
+                <a href="html.html" id="active1">HTML Home</a>
+                <a href="html_intro.html" id="active2">HTML Introduction</a>
+                <a href="html_editors.html" id="active3">HTML Editors</a>
+                <a href="html_basic.html" id="active4">HTML Basic </a>
+                <a href="html_elements.html" id="active15">HTML Elements</a>
+                <a href="html_headings.html" id="active6">HTML heading</a>
+                <a href="html_paragraphs.html" id="active7">HTML Paragraphs</a>
+                <a href="html_styles.html" id="active8">HTML Styles</a>
+                <a href="html_formatting.html" id="active9">HTML Formatting</a>
+                <a href="html_quotation.html" id="active10">HTML Quotation</a>
+                <a href="html_comments.html" id="active11">HTML Comments</a>
+                <a href="html_favicon.html" id="active12">HTML Favicon</a>
+                <a href="html_list.html" id="active13">HTML Lists</a>
+                <a href="html_block.html" id="active14">HTML Block and Inline</a>
+            </div>
+        </div>
+    </div>
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">HTML Lists
+
+        </h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="html_favicon.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="html_block.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-3 mb-5 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5">HTML lists allow web developers to group a set of related
+                        items in lists.
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Unordered HTML List</h4>
+                    <p class="ps-3 fs-5 pt-2">An unordered list starts with the
+                        <span class="pink"> &lt;ul&gt;</span> tag. Each list item starts with the <span
+                            class="pink">&lt;li&gt;</span> tag.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">The list items will be marked with bullets (small
+                        black circles) by default:</p>
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <ul>
+                                        <li>Coffee</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">ul</span>&gt;</span><br>
+                                    &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">li</span>&gt;</span>
+                                    <span class="bk">Coffee</span>
+                                    <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; <span class="b">&lt;<span
+                                            class="br">li</span>&gt;</span>
+                                    <span class="bk">Tea</span>
+                                    <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                    &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">li</span>&gt;</span>
+                                    <span class="bk">Milk</span>
+                                    <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/ul</span>&gt;</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--line3-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">Ordered HTML List</h4>
+                <p class="ps-3 fs-5 pt-2">An ordered list starts with the
+                    <span class="pink">&lt;ol&gt;</span> tag. Each list item starts with the <span
+                        class="pink">&lt;li&gt;</span> tag.
+                </p>
+                <p class="ps-3 fs-5 pt-2">The list items will be marked with bullets (small
+                    black circles) by default:</p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 py-2 bg-white line fs-6">
+                                <ol>
+                                    <li>Coffee</li>
+                                    <li>Tea</li>
+                                    <li>Milk</li>
+                                </ol>
+
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">ol</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">li</span>&gt;</span>
+                                <span class="bk">Coffee</span>
+                                <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp; <span class="b">&lt;<span class="br">li</span>&gt;</span>
+                                <span class="bk">Tea</span>
+                                <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">li</span>&gt;</span>
+                                <span class="bk">Milk</span>
+                                <span class="b">&lt;<span class="br">/li</span>&gt;</span><br>
+                                <span class="b">&lt;<span class="br">/ol</span>&gt;</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!--line3-->
+    <div class="container-fluid border border-start-0 py-4 mb-5">
+        <div class="row">
+            <div class="col col-12">
+                <h4 class="ps-3 fs-2">HTML Description Lists</h4>
+                <p class="ps-3 fs-5 pt-2">HTML also supports description lists.
+                </p>
+                <p class="ps-3 fs-5 pt-2">A description list is a list of terms, with a
+                    description of each term.</p>
+
+                <p class="ps-3 fs-5 pt-2"> The
+                    <span class="pink">&lt;dl&gt;</span> tag defines the description list, the <span
+                        class="pink">&lt;dt&gt;</span> tag defines the term (name), and the
+                    <span class="pink">&lt;dd&gt;</span> tag describes each term:
+                </p>
+            </div>
+            <!-- code -->
+            <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                <div class="row">
+                    <div class="col col-12 mt-4">
+                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                        <!--Output-->
+                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                        <div class="row mx-3">
+                            <div class="col col-12 py-2 bg-white line fs-6">
+                                <dl>
+                                    <dt>Coffee</dt>
+                                    <dd>- black hot drink</dd>
+                                    <dt>Milk</dt>
+                                    <dd>- white cold drink</dd>
+                                </dl>
+
+
+                            </div>
+                        </div>
+                        <!--html-->
+                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                        <div class="row mx-3 text-dark">
+                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                <span class="b">&lt;<span class="br">dl</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">dt</span>&gt;</span>
+                                <span class="bk">Coffee</span>
+                                <span class="b">&lt;<span class="br">/dt</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">dd</span>&gt;</span>
+                                <span class="bk">- black hot drink</span>
+                                <span class="b">&lt;<span class="br">/dd</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp; <span class="b">&lt;<span class="br">dt</span>&gt;</span>
+                                <span class="bk">Milk</span>
+                                <span class="b">&lt;<span class="br">/dt</span>&gt;</span><br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;<span class="b">&lt;<span class="br">dd</span>&gt;</span>
+                                <span class="bk">- white cold drink</span>
+                                <span class="b">&lt;<span class="br">/dd</span>&gt;</span><br>
+                                <span class="b">&lt;<span class="br">/dl</span>&gt;</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+
+        <a href="html_favicon.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="html_block.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

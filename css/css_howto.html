@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cssactive5 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="css" href="#">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">CSS Tutorial </h4>
+            <div class="links">
+                <a href="css.html" id="cssactive1">CSS Home</a>
+                <a href="css_intro.html" id="cssactive2">CSS Introduction</a>
+                <a href="css_syntax.html" id="cssactive3">CSS Syntax</a>
+                <a href="css_selectors.html" id="cssactive">CSS Selectors </a>
+                <a href="css_howto.html" id="cssactive5">CSS How To</a>
+                <a href="css_comments.html" id="cssactive6">CSS Comments</a>
+                <a href="css_margins.html" id="cssactive7">CSS Margin</a>
+                <a href="css_padding.html" id="cssactive8">CSS Padding</a>
+                <a href="css_dimension.html" id="cssactive9">CSS Height/Width</a>
+                <a href="css_boxmodel.html" id="cssactive10">CSS Box Model</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">How To Add CSS
+
+        </h4>
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="css_selectors.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_comments.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-2">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5 pt-2">When a browser reads a style sheet, it will
+                        format the
+                        HTML document according to the information in the style sheet.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 pt-2 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Three Ways to Insert CSS</h4>
+                    <p class="ps-3 fs-5 pt-2">There are three ways of inserting a style sheet:</p>
+                    <ul class="fs-5 ms-3">
+                        <li>External CSS</li>
+                        <li> Internal CSS</li>
+                        <li> Inline CSS</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">External CSS</h4>
+                    <p class="ps-3 fs-5 pt-2">With an external style sheet, you can change the look of
+                        an entire website by changing just one file!</p>
+
+                    <p class="ps-3 fs-5 pt-2">Each HTML page must include a reference to the external
+                        style sheet file inside the
+                        &lt;link&gt; element, inside the head section. </p>
+                </div>
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="grey mt-2 ">
+                                <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                                <p class="ps-3 fs-5 pt-2">External styles are defined within the
+                                    &lt;link&gt; element, inside the
+
+                                    <head> section of an HTML page:
+                                </p>
+                                <!--Output-->
+                                <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                                <div class="row mx-3" style="background-color:lightblue;">
+                                    <div class="col col-12 pt-3 fs-6">
+                                        <h4 style="color: navy; margin-left:20px;">This is a heading</h4>
+                                        <p>This is a paragraph.</p>
+                                    </div>
+                                </div>
+                                <!--html-->
+                                <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                                <div class="row mx-3 text-dark">
+                                    <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base ">
+
+                                        <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                        <span class="b">&lt;<span class="br">link</span></span>
+
+                                        <span class="r"> rel</span><span class="b"> = "stylesheet"</span>
+                                        <span class="r"> href</span><span class="b"> = "mystyle.css"&gt;</span><br>
+
+                                        <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                        <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                        <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                        <span class="bk">This is a heading</span>
+                                        <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                        <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                        <span class="bk">This is a paragraph.</span>
+                                        <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                        <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                        <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-4">An external style sheet can be written in any text editor, and
+                    must be saved with a .css extension.</p>
+
+                <p class="ps-3 fs-5 "> The external .css file should not contain any HTML tags.</p>
+
+                <p class="ps-3 fs-5 ">Here is how the "mystyle.css" file looks:</p>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-2">
+                    <div class="row">
+                        <div class="col col-12">
+                            <!--html-->
+                            <h4 class="pt-3 pb-2 ps-3">"mystyle.css"</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+
+                                    <span class="br">body</span>
+                                    {<br>
+                                    <span class="r"> background-color</span> :
+                                    <span class="b"> "lightblue"</span>;<br>}<br><br>
+                                    <span class="br">h4</span>
+                                    {<br>
+                                    <span class="r"> color</span> :
+                                    <span class="b"> "navy"</span>;<br>
+                                    <span class="r"> margin-left</span> :
+                                    <span class="b"> "20px"</span>;<br>}<br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start py-3 h-auto mt-2 lh-base ">
+                        <p class="ps-3 fs-5"><span class="fw-semibold">Note:</span> Do not add a space
+                            between the property value and the unit:<br>
+                            Incorrect (space): margin-left: 20 px;<br>
+                            Correct (nospace): margin-left: 20px;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4 mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Internal CSS</h4>
+                    <p class="ps-3 fs-5 pt-2">An internal style sheet may be used if one single HTML
+                        page has a unique style.</p>
+
+                    <p class="ps-3 fs-5 pt-2">The internal style is defined inside the &lt;style&gt;
+                        element, inside the head section.</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Internal styles are defined within the
+                                &lt;style&gt;
+                                element,
+                                inside the
+
+                                &lt;head&gt; section of an HTML page:
+                            </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 line pt-3 fs-6" style="background-color:linen;">
+                                    <h4 style="color: maroon;" class="ms-4">This is a heading</h4>
+                                    <p>This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">head</span>&gt;
+                                    </span><br><span class="b">&lt;<span class="br">style</span>&gt;
+                                    </span><br><span class="br">body</span><span class="bk"> {
+                                        <br><span class="r">background-color</span>: <span class="b">linen</span>;
+                                        <br>
+                                        }<br>
+                                    </span><br><span class="br">h4</span><span class="bk"> {
+                                        <br><span class="r">color</span>: <span class="b">maroon</span>;
+                                        <br><span class="r">margin-left</span>: <span class="b">40px</span>;
+                                        <br>
+                                        }
+                                    </span><br><span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line4-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Inline CSS</h4>
+                    <p class="ps-3 fs-5 pt-2">An inline style may be used to apply a unique style
+                        for a single element.</p>
+
+                    <p class="ps-3 fs-5 pt-2">To use inline styles, add the style attribute to the
+                        relevant element. The style attribute can contain any CSS property.</p>
+                </div>
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Inline styles are defined within the "style"
+                                attribute of the relevant element: </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4 style="color: blue;" class="text-center">This is a heading</h4>
+                                    <p class="r">This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">h4<span class="r">
+                                                style</span><span class="bk">=</span></span>"color :
+                                        blue;
+                                        text-align:center;"&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r">
+                                                style</span><span class="bk">=</span></span>"color :
+                                        red;"&gt;</span></span></span><span class="bk">This is a
+                                        paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt; </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+        <div class="row">
+            <div class="col col-12">
+                <div class="text-start pt-3 h-auto mt-2 lh-base ">
+                    <p class="ps-3 fs-5"><span class="fw-semibold">Tip:</span>Tip: An inline style
+                        loses many of the advantages of a style sheet (by mixing content with presentation). Use
+                        this method
+                        sparingly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="css_selectors.html" class="left btn ms-3 fs-6">&lt;
+            Previous</a><a href="css_comments.html" class="right btn me-4 fs-6 ">Next &gt;
+        </a>
+    </div>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cssactive {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="css" href="#">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">CSS Tutorial </h4>
+            <div class="links">
+                <a href="css.html" id="cssactive1">CSS Home</a>
+                <a href="css_intro.html" id="cssactive2">CSS Introduction</a>
+                <a href="css_syntax.html" id="cssactive3">CSS Syntax</a>
+                <a href="css_selectors.html" id="cssactive">CSS Selectors </a>
+                <a href="css_howto.html" id="cssactive5">CSS How To</a>
+                <a href="css_comments.html" id="cssactive6">CSS Comments</a>
+                <a href="css_margins.html" id="cssactive7">CSS Margin</a>
+                <a href="css_padding.html" id="cssactive8">CSS Padding</a>
+                <a href="css_dimension.html" id="cssactive9">CSS Height/Width</a>
+                <a href="css_boxmodel.html" id="cssactive10">CSS Box Model</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">CSS Selectors </h4>
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2">
+            <a href="css_syntax.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_howto.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-2">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5 pt-2">A CSS selector selects the HTML element(s) you want to
+                        style.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS Selectors</h4>
+                    <p class="ps-3 fs-5 pt-2">CSS selectors are used to "find" (or select) the HTML
+                        elements you want to style.</p>
+                    <p class="ps-3 fs-5 pt-2">We can divide CSS selectors into five categories:</p>
+                    <ul class="fs-5 ms-3">
+                        <li>Simple selectors (select elements based on name, id, class)</li>
+                        <li> Combinator selectors (select elements based on a specific relationship between them)
+                        </li>
+                        <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                        <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                        <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The CSS element Selector</h4>
+                    <p class="ps-3 fs-5 pt-2">The element selector selects HTML elements based on the
+                        element name.</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Here, all
+                                &lt;p&gt; elements on the page will be center-aligned, with a red text color: </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p style="color: red;" class="text-center">Hello World!</p>
+                                    <p style="color: red;" class="text-center">These paragraphs are styled with CSS.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">Hello World!</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line4-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The CSS id Selector</h4>
+                    <p class="ps-3 fs-5 pt-2">The id selector uses the id attribute of an HTML element
+                        to select a specific element.</p>
+
+                    <p class="ps-3 fs-5 pt-2">The id of an element is unique within a page, so the id
+                        selector is used to select one unique element!</p>
+
+                    <p class="ps-3 fs-5 pt-2">To select an element with a specific id, write a hash
+                        (#) character, followed by the id of the element.</p>
+
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">The CSS rule below will be applied to the HTML
+                                element with id="para1": </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p style="color: red;" class="text-center">Hello World!</p>
+                                    <p>This paragraph is not affected by the style.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class=" ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">#para1</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r"> id</span><span class="bk"> =
+                                            </span></span>"para1"&gt;</span>
+                                    <span class="bk">Hello World!</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This paragraph is not affected by the style.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start pt-3 h-auto mt-2 lh-base ">
+                        <p class="ps-3 fs-5 "><span class=" fw-semibold">Note:</span> An id name cannot
+                            start with a number!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line5-->
+        <div class="container-fluid border border-start-0 py-4 mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The CSS class Selector</h4>
+                    <p class="ps-3 fs-5 pt-2">The class selector selects HTML elements with a specific
+                        class attribute.</p>
+
+                    <p class="ps-3 fs-5 pt-2">To select elements with a specific class, write a period
+                        (.) character, followed by the class name.</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">In this example all HTML elements with
+                                class="center" will be red and center-aligned:
+
+                            </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4 style="color: red;" class="text-center">Red and center-aligned heading</h4>
+                                    <p style="color: red;" class="text-center">Red and center-aligned paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">.center</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4<span class="r"> class</span><span
+                                                class="bk"> =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">Red and center-aligned heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r"> class</span><span class="bk">
+                                                =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-3">You can also specify that only specific HTML elements should be
+                    affected by a class.
+
+                </p>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">In this example only
+                                &lt;p&gt; elements with class="center" will be red and center-aligned:
+                            </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This heading will not be affected</h4>
+                                    <p style="color: red;
+  text-align: center;">This paragraph will be red and center-aligned.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p.center</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4<span class="r"> class</span><span
+                                                class="bk"> =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">This heading will not be affected</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r"> class</span><span class="bk">
+                                                =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">This paragraph will be red and center-aligned.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-4">HTML elements can also refer to more than one class.
+
+                </p>
+
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">In this example only
+                                &lt;p&gt; element will be styled according to class="center" and to
+                                class="large":
+                            </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This heading will not be affected</h4>
+                                    <p style=" color: red;" class="text-center">This paragraph will be red and
+                                        center-aligned.</p>
+                                    <p style="color: red; font-size: 300%;" class="text-center">This paragraph will
+                                        be
+                                        red,
+                                        center-aligned, and
+                                        in a large font-size.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p.center</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="br">p.large</span>
+                                    <span class="bk">{<br><span class="r"> font-size</span> : <span
+                                            class="b">300%</span>;<br>
+                                        }</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4<span class="r"> class</span><span
+                                                class="bk"> =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">This heading will not be affected</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r"> class</span><span class="bk">
+                                                =
+                                            </span></span>"center"&gt;</span>
+                                    <span class="bk">This paragraph will be red and center-aligned.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r"> class</span><span class="bk">
+                                                =
+                                            </span></span>"center large"&gt;</span>
+                                    <span class="bk">This paragraph will be red, center-aligned, and in a large
+                                        font-size.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start pt-2 h-auto mt-2 lh-base ">
+                        <p class="ps-3 fs-5"><span class="fw-semibold">Note:</span> A class name cannot
+                            start with a number!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line6-->
+        <div class="container-fluid border border-start-0 py-4 mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The CSS Universal Selector
+                    </h4>
+                    <p class="ps-3 fs-5 pt-2">The universal selector (*) selects all HTML elements on
+                        the page.
+                    </p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">The CSS rule below will affect every HTML
+                                element on the page: </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4 style=" color:blue; text-align: center;">Hello world!</h4>
+                                    <p style=" color:blue; text-align: center;">Every element on the
+                                        page will be
+                                        affected
+                                        by the style.</p>
+                                    <p style=" color:blue; text-align: center;">Me too!</p>
+
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">*</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">blue</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">Hello world!</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">Every element on the page will be affected by the
+                                        style.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p<span class="r">
+                                                id</span><span class="bk"> =
+                                            </span></span>"para1"&gt;</span>
+                                    <span class="bk">This paragraph will be red, center-aligned, and in
+                                        a large
+                                        font-size.</span><span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">Me too!</span>
+
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line5-->
+        <div class="container-fluid border border-start-0 py-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">The CSS Grouping Selector</h4>
+                    <p class="ps-3 fs-5 pt-2">The grouping selector selects all the HTML elements with
+                        the same style definitions.</p>
+
+                    <p class="ps-3 fs-5 pt-2">Look at the following CSS code (the h4, h4, and p
+                        elements have the same style definitions):</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg2 mt-3 ">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="grey mt-2 ">
+                                <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                                <!--html-->
+                                <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                                <div class="row mx-3 text-dark">
+                                    <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                        <span class="br">h4</span>
+                                        <span class="bk">{<br><span class="r"> color</span> : <span
+                                                class="b">red</span>;<br>
+                                            <span class="r"> text-align</span> : <span
+                                                class="b">center</span>;<br>}</span><br><br>
+                                        <span class="br">h4</span>
+                                        <span class="bk">{<br><span class="r"> color</span> : <span
+                                                class="b">red</span>;<br>
+                                            <span class="r"> text-align</span> : <span
+                                                class="b">center</span>;<br>}</span><br><br>
+                                        <span class="br"> p</span>
+                                        <span class="bk">{<br><span class="r"> color</span> : <span
+                                                class="b">red</span>;<br>
+                                            <span class="r"> text-align</span> : <span
+                                                class="b">center</span>;<br>}</span><br><br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-4">It will be better to group the selectors, to minimize the code.
+
+                <p class="ps-3 fs-5">To group selectors, separate each selector with a comma.</p>
+                </p>
+
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">In this example we have grouped the selectors
+                                from the code above:
+
+                            </p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4 style="color: red;
+  text-align: center;">Hello World!</h4>
+                                    <h4 style="color: red;
+  text-align: center;">Smaller heading!</h4>
+
+                                    <p style="color: red;
+  text-align: center;">This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">h4, h4, p</span>
+                                    <span class="bk">{<br><span class="r"> color</span> : <span
+                                            class="b">red</span>;<br>
+                                        <span class="r"> text-align</span> : <span
+                                            class="b">center</span>;<br>}</span><br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">Hello World!</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">Smaller heading!</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="css_syntax.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="css_howto.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

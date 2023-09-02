@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #phpactive4 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../css/css.html">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="php" href="#">PHP</a>
+                    </li>
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">PHP TUTORIAL</h4>
+            <div class="links">
+                <a href="php.html" id="phpactive1">PHP Home</a>
+                <a href="php_intro.html" id="phpactive2">PHP Intro</a>
+                <a href="php_install.html" id="phpactive3">PHP Install</a>
+                <a href="php_syntax.html" id="phpactive4">PHP Syntax</a>
+                <a href="php_comments.html" id="phpactive5">PHP Comments</a>
+                <a href="php_variables.html" id="phpactive6">PHP Variables</a>
+                <a href="php_variables_scope.html" id="phpactive7">PHP Variables Scope</a>
+
+                <a href="php_echo_print.html" id="phpactive8">PHP Echo and Print</a>
+                <a href="php_data_types.html" id="phpactive9">PHP Data Types</a>
+                <a href="php_strings.html" id="phpactive10">PHP Strings</a>
+                <a href="php_numbers.html" id="phpactive11">PHP Numbers</a>
+                <a href="php_math.html" id="phpactive12">PHP Math</a>
+                <a href="php_operators.html" id="phpactive13">PHP Operators</a>
+                <a href="php_if_else.html" id="phpactive14">PHP if...else...elseif</a>
+                <a href="php_switch.html" id="phpactive15">PHP Switch</a>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Tutorial heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">PHP Syntax</h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="php_install.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="php_comments.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+
+        <!-- line1 -->
+        <div class="container-fluid border border-start-0 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="mt-4">
+                        <p class="fs-5 ps-3">A PHP script is executed on the server, and the
+                            plain HTML result is sent back to the browser.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- line2 -->
+        <div class="container-fluid border border-start-0 pt-3 mb-3">
+            <div class="row">
+                <div class="col col-12 ">
+                    <h4 class="ps-3 fs-2">Basic PHP syntax</h4>
+                    <p class="pt-2 ps-3 fs-5">A PHP script can be placed anywhere in
+                        the document:<br>
+                        A PHP script starts with <span class=" pink">
+                            &lt;?php </span> and ends with <span class="pink"> ?&gt; </span>:
+                    </p>
+                    <!--code-->
+                    <div class="row px-4">
+                        <div class="col col-12 fs-6 border py-2 ps-2 mb-3">
+                            <span class="">&lt;?php</span>
+                            <br>
+                            <span class="">// PHP code goes here</span>;
+                            <br>
+                            <span class="">?&gt;</span>
+                        </div>
+                    </div>
+                    <!--line-->
+                    <p class="ps-3 fs-5">The default file extension for PHP files is
+                        " <span class="pink">.html</span>".<br>
+                        A PHP file normally contains HTML tags, and some PHP scripting code.<br>
+                        Below, we have an example of a s imple PHP fle, with a PHP script that uses a built-in PHP
+                        function "<span class="pink">echo</span>" to output the text "Hello World!" on a web
+                        page:</p>
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white fs-6 pt-3 ">
+                                    <h4>My first PHP page</h4>
+                                    <p>Hello World!</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="">My first PHP page</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br><br>
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"Hello World!"</span>;<br>
+                                    <span class="r">?&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- line3-->
+        <div class="container-fluid border border-start-0 py-2 mt-5 ">
+            <div class="row">
+                <div class="col col-12 mt-4">
+                    <h4 class="ps-3 fs-2">PHP case Sensitivity</h4>
+                    <p class="pt-2 ps-3 fs-5">In PHP, Keywords (e.g. <span class="pink">if
+                        </span>,
+                        <span class="pink">else</span>,
+                        <span class="pink">while</span>,
+                        <span class="pink">echo</span>, etc.), classes, functions, and user-defines functions
+                        are not case-sensitive.
+                        <br><br>
+                        In the example below, all three echo statements below are equal and legal:
+                    </p>
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary  mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>Hello World!</p>
+                                    <p>Hello World!</p>
+                                    <p>Hello World!</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="b">ECHO</span>
+                                    <span class="br">"Hello World!&lt;<span class="br">br</span>&gt;"</span>;<br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"Hello World!&lt;<span class="br">br</span>&gt;"</span>;<br>
+                                    <span class="b">EcHO</span>
+                                    <span class="br">"Hello World!&lt;<span class="br">br</span>&gt;"</span>;<br>
+                                    <span class="r">?&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- note -->
+                <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="text-start py-3 h-auto mt-2 lh-base ">
+                                <p class="fs-5 ps-3"><span class="fw-semibold">Note:</span>
+                                    However; all variable names are case-sensitive!<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- line1 -->
+                <div class="container-fluid  py-2">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="mt-4">
+                                <p class="ps-3 fs-5">Look at the example below; only the first
+                                    statement will display the value of the <span class="pink">$color</span>
+                                    variable! This is because
+                                    <span class="pink">$color</span>, <span class="pink">
+                                        $COLOR</span>and <span class="pink">$coLOR</span> are treated as three
+                                    different variables:<br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- code -->
+                        <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary pt-4">
+                            <div class="row">
+                                <div class="col col-12">
+                                    <div class=" mt-2">
+                                        <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                                        <!--Output-->
+                                        <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                                        <div class="row mx-3">
+                                            <div class="col col-12 bg-white pt-3 fs-6">
+
+                                                <p>My car is red</p>
+                                                <p>My house is</p>
+                                                <p>My boat is</p>
+                                            </div>
+                                        </div>
+                                        <!--html-->
+                                        <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                                        <div class="row mx-3 text-dark">
+                                            <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                                <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                                <span class="b"><span class="r">html</span>&gt;</span><br>
+                                                <span class="b">&lt;<span class="br">html</span>&gt;</span><br>
+                                                <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                                <span class="r">&lt;?php</span><br>
+                                                <span class="">$color =</span>
+                                                <span class="br">"red"</span>;<br>
+                                                <span class="b">echo</span>
+                                                <span class="br">"My car is"</span>
+                                                <span class=""> . $color .</span>
+                                                <span class="br">"&lt;<span>br</span>>"</span>;<br>
+                                                <span class="b">echo</span>
+                                                <span class="br">"My house is"</span>
+                                                <span class=""> . $COLOR .</span>
+                                                <span class="br">"&lt;<span>br</span>>"</span>;<br>
+                                                <span class="b">echo</span>
+                                                <span class="br">"My boat is"</span>
+                                                <span class=""> . $coLOR .</span>
+                                                <span class="br">"&lt;<span>br</span>>"</span>;<br>
+                                                <span class="r">?&gt;</span><br><br>
+                                                <span class="b">&lt;<span class="br">/html</span>&gt;</span><br>
+                                                <span class="b">&lt;<span class="br">/body</span>&gt;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="php_install.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="php_comments.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

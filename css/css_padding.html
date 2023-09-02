@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cssactive8 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a>
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="css" href="#">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../php/php.html">PHP</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">CSS Tutorial </h4>
+            <div class="links">
+                <a href="css.html" id="cssactive1">CSS Home</a>
+                <a href="css_intro.html" id="cssactive2">CSS Introduction</a>
+                <a href="css_syntax.html" id="cssactive3">CSS Syntax</a>
+                <a href="css_selectors.html" id="cssactive">CSS Selectors </a>
+                <a href="css_howto.html" id="cssactive5">CSS How To</a>
+                <a href="css_comments.html" id="cssactive6">CSS Comments</a>
+                <a href="css_margins.html" id="cssactive7">CSS Margin</a>
+                <a href="css_padding.html" id="cssactive8">CSS Padding</a>
+                <a href="css_dimension.html" id="cssactive9">CSS Height/Width</a>
+                <a href="css_boxmodel.html" id="cssactive10">CSS Box Model</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">CSS Padding
+            <!-- <button style="padding-right:39px;" class=" btn right  fs-6 menu " type="button" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button> -->
+        </h4>
+
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="css_margins.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="css_dimension.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+        <!--line1-->
+        <div class="container-fluid border border-start-0 pt-3 mb-5 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5 mb-3">Padding is used to create space around an element's
+                        content, inside of any defined borders.
+
+                    </p>
+                    <p style="font-size:20px; padding:70px" class="padding border border-5 ">This element has a
+                        padding
+                        of 70px.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">CSS Padding</h4>
+                    <p class="ps-3 fs-5 pt-2">The CSS <span class="pink">padding</span> properties
+                        are used to generate space around an element's content, inside of any defined borders.</p>
+
+                    <p class="ps-3 fs-5 pt-2">With CSS, you have full control over the padding.
+                        There are properties for setting the padding for each side of an element (top, right,
+                        bottom,
+                        and left).</p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 py-4 mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Padding - Individual Sides</h4>
+                    <p class="ps-3 fs-5 pt-2">CSS has properties for specifying the padding for
+                        each side of an element: </p>
+                    <ul class="ps-3 fs-5">
+
+                        <li> <span class="pink">padding-top</li>
+                        </span>
+                        <li> <span class="pink">padding-right</li>
+                        <li> <span class="pink">padding-bottom</li>
+                        <li> <span class="pink">padding-left</li>
+                    </ul>
+                    <p class="ps-3 fs-5 pt-2">All the padding properties can have the following
+                        values:</p>
+                    <ul class="ps-3 fs-5">
+
+                        <li> length - specifies a padding in px, pt, cm, etc.</li>
+                        <li>% - specifies a padding in % of the width of the containing element</li>
+                        <li>inherit - specifies that the padding should be inherited from the parent element</li>
+                    </ul>
+                </div>
+                <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-2">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="text-start pt-3 h-auto mt-2 lh-base ">
+                                <p class="ps-3 fs-5"><span class="fw-semibold">Tip:</span> Negative
+                                    values are not allowed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mt-4">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2"> Set different padding for all four sides of
+                                a
+                                &lt;div&gt; element:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white py-3 fs-6">
+
+                                    <p>This is a paragraph.</p>
+                                    <div class="style1 border border-dark bg-primary bg-opacity-25"> This div
+                                        element
+                                        has a top padding of 100px,
+                                        a right padding
+                                        of
+                                        150px, a bottom padding of 100px, and a left padding of 80px.</div>
+
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">div</span> {<br>
+                                    <span class="r">border</span> : <span class="b">1px solid black</span>;<br>
+                                    <span class="r">padding-top</span> : <span class="b">1oopx</span>;<br>
+                                    <span class="r">padding-bottom</span> : <span class="b">1oopx</span>;<br>
+                                    <span class="r">padding-right</span> : <span class="b">15opx</span>;<br>
+                                    <span class="r">padding-left</span> : <span class="b">8opx</span>;<br>
+                                    <span class="r">background-color</span> : <span class="b">lightblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">div</span>&gt;</span>
+                                    <span class="bk">This div element has a top padding of 100px, a right padding of
+                                        150px, a bottom padding of 100px, and a left padding of 80px.</span>
+                                    <span class="b">&lt;<span class="br">/div</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--line3-->
+        <div class="container-fluid border border-start-0 py-4  mb-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">Padding - Shorthand Property</h4>
+                    <p class="ps-3 fs-5 pt-2">To shorten the code, it is possible to specify all the
+                        padding properties in one property.</p>
+
+                    <p class="ps-3 fs-5 pt-2"> The <span class="pink">padding</span> property is a
+                        shorthand property for the following individual padding properties:
+                    </p>
+                    <ul class="ps-3 fs-5">
+
+                        <li> <span class="pink">padding-top</li>
+                        </span>
+                        <li> <span class="pink">padding-right</li></span>
+
+                        <li> <span class="pink">padding-bottom</li></span>
+                        <li> <span class="pink">padding-left</li></span>
+                    </ul>
+                    <p class="ps-3 fs-5 pt-2"> So, here is how it works:</p>
+
+                    <p class="ps-3 fs-5 pt-2"> If the <span class="pink">padding</span>property has
+                        four values:</p>
+                    <ul class="ps-3 fs-5">
+                        <li><span class="fw-semibold">padding: 25px 50px 75px 100px;</span>
+                            <ul class="ps-3 fs-5" type="circle;">
+                                <li>top padding is 25px</li>
+                                <li> right padding is 50px</li>
+                                <li>bottom padding is 75px</li>
+                                <li>left padding is 100px</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Use the padding shorthand property with four
+                                values:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This is a heading</h4>
+                                    <p class="border border-dark bg-primary bg-opacity-25 "
+                                        style="padding:25px 50px 75px 100px; ">
+                                        This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p</span> {<br>
+                                    <span class="r">padding</span> : <span class="b">25px 50px 75px
+                                        100px</span>;<br>
+                                    <span class="r">border</span> : <span class="b">1px solid black</span>;<br>
+                                    <span class="r">background-color</span> : <span class="b">lightblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-2"> If the <span class="pink">padding</span> property has three
+                    values:</p>
+                <ul class="ps-3 fs-5">
+                    <li><span class="fw-semibold">padding: 25px 50px 75px;</span>
+                        <ul class="ps-3 fs-5" type="circle;">
+                            <li>top padding is 25px</li>
+                            <li> right nad left margins are 50px</li>
+                            <li>bottom padding is 75px</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Use the padding shorthand property with three
+                                values:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This is a heading</h4>
+                                    <p class="border border-dark bg-primary bg-opacity-25 "
+                                        style="padding:25px 50px 75px;">
+                                        This is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p</span> {<br>
+                                    <span class="r">padding</span> : <span class="b">25px 50px 75px</span>;<br>
+                                    <span class="r">border</span> : <span class="b">1px solid black</span>;<br>
+                                    <span class="r">background-color</span> : <span class="b">lightblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-2"> If the <span class="pink">padding</span> property has two
+                    values:</p>
+                <ul class="ps-3 fs-5">
+                    <li><span class="fw-semibold">padding: 25px 50px;</span>
+                        <ul class="ps-3 fs-5" type="circle;">
+                            <li>top and bottom margins are 25px</li>
+                            <li> right and left margins are 50px</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Use the padding shorthand property with two
+                                values:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This is a heading</h4>
+                                    <p class="border border-dark bg-primary bg-opacity-25 " style="padding:25px 50px; ">
+                                        This
+                                        is a paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p</span> {<br>
+                                    <span class="r">padding</span> : <span class="b">25px 50px</span>;<br>
+                                    <span class="r">border</span> : <span class="b">1px solid black</span>;<br>
+                                    <span class="r">background-color</span> : <span class="b">lightblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="ps-3 fs-5 pt-2"> If the <span class="pink">padding</span> property has one
+                    values:</p>
+                <ul class="ps-3 fs-5">
+                    <li><span class="fw-semibold">padding: 25px;</span>
+                        <ul class="ps-3 fs-5" type="circle;">
+                            <li>all four margins are 25px</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- code -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Use the padding shorthand property with one
+                                values:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <h4>This is a heading</h4>
+                                    <p style="padding:25px; " class="border border-dark bg-primary bg-opacity-25">
+                                        This
+                                        is a
+                                        paragraph.</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class=" ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="b">&lt;<span class="br">!DOCTYPE</span></span>
+                                    <span class="b"><span class="r">html</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">style</span>&gt;</span><br>
+                                    <span class="br">p</span> {<br>
+                                    <span class="r">padding</span> : <span class="b">25px</span>;<br>
+                                    <span class="r">border</span> : <span class="b">1px solid black</span>;<br>
+                                    <span class="r">background-color</span> : <span class="b">lightblue</span>;<br>}<br>
+                                    <span class="b">&lt;<span class="br">/style</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/head</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">body</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">h4</span>&gt;</span>
+                                    <span class="bk">This is a heading</span>
+                                    <span class="b">&lt;<span class="br">/h4</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">p</span>&gt;</span>
+                                    <span class="bk">This is a paragraph.</span>
+                                    <span class="b">&lt;<span class="br">/p</span>&gt;</span><br><br>
+                                    <span class="b">&lt;<span class="br">/body</span>&gt;</span><br>
+                                    <span class="b">&lt;<span class="br">/html</span>&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+
+        <a href="css_margins.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="css_dimension.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>

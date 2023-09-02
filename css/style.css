@@ -1,0 +1,232 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .change {
+     color: white;
+     border: 1px solid none;
+     padding: 25px;
+ }
+
+ .change:hover {
+     color: white;
+     border: 1px solid none;
+     background-color: #02718c;
+     padding: 25px;
+ }
+
+
+ .text {
+     color: white !important;
+
+ }
+
+ .text:hover {
+     color: #02718c !important;
+
+ }
+
+ .text2 {
+     color: white !important;
+     margin-right: 10px;
+
+ }
+
+ .text2:hover {
+     color: whitesmoke !important;
+     background-color: #02718c;
+     margin-right: 10px;
+ }
+
+ .left {
+
+     float: left !important;
+ }
+
+
+
+ .sidebar {
+     padding-top: 10px;
+     position: fixed;
+     width: 300px;
+     background-color: #E7E9EB;
+     overflow-x: hidden;
+     overflow-y: scroll;
+     height: 100%;
+ }
+
+ .links a {
+     text-decoration: none;
+     padding-left: 30px;
+     font-size: 18px;
+     color: black;
+     display: block;
+
+ }
+
+ .links a:active {
+     background-color: #0d8ba0;
+     color: white;
+ }
+
+ .links a:hover {
+     background-color: grey;
+     color: white;
+ }
+
+ .nextprev a.right,
+ .nextprev a.left {
+     background-color: #0d8ba0;
+     color: #ffffff;
+     border-color: #12adb5;
+ }
+
+ .right {
+     float: right !important;
+ }
+
+ .left {
+     float: left !important;
+ }
+
+
+ .r {
+     color: red;
+ }
+
+ .b {
+     color: blue;
+ }
+
+ .br {
+     color: brown;
+ }
+
+ .o {
+     color: goldenrod;
+ }
+
+ .g {
+     color: green;
+ }
+
+ .bk {
+     color: black;
+ }
+
+ #css {
+     color: #0d8ba0;
+ }
+
+
+
+ .pink {
+     color: #ff1493;
+ }
+
+ .link {
+     color: black;
+
+ }
+
+ .link:hover {
+     color: blue;
+ }
+
+ .style {
+     margin-top: 100px;
+     margin-bottom: 100px;
+     margin-right: 150px;
+     margin-left: 80px;
+ }
+
+ .style1 {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-right: 150px;
+     padding-left: 80px;
+ }
+
+ .style3 {
+     margin-left: 100px;
+ }
+
+ .style4 {
+     height: 200px;
+ }
+
+ .styles {
+     height: 100px;
+     width: 500px;
+ }
+
+
+
+ .style5 {
+     max-width: 500px;
+     height: 100px;
+ }
+
+ .style7 {
+     background-color: lightgrey;
+     width: 700px;
+     border: 15px solid green;
+     padding: 50px;
+     margin: 20px;
+ }
+
+ .style6 {
+     width: 400px;
+     padding: 10px;
+     border: 5px solid gray;
+     margin: 0;
+ }
+
+
+
+
+
+ .margin {
+     border: 5px dashed grey;
+     background-color: lightgrey;
+
+
+ }
+
+ .bor {
+     background-color: darkgreen;
+     background-color: darkgreen;
+ }
+
+ .pad {
+     border: 5px none grey;
+     background-color: lightgrey;
+
+ }
+
+ .content {
+     border: 5px dashed lightgrey;
+
+ }
+
+ #css {
+     color: #0d8ba0 !important;
+ }
+
+ .btn {
+     font-size: 16px;
+     background-color: black;
+     color: white;
+     border: 1px white solid;
+     padding: 6px;
+     border-radius: 5px;
+     margin-right: 10px;
+
+ }
+
+ .btn:hover {
+     background-color: #02718c;
+
+ }

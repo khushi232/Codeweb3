@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/c.ico">
+    <title>Codeweb</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #phpactive11 {
+            background-color: #0d8ba0;
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-start bg-black sticky-top ">
+        <div class="container-fluid">
+            <a class="text-white fs-4 text-uppercase text-start me-2 text-decoration-none" href="../index.html"><img
+                    src="images/code.jpg" class="ms-1 mb-1" alt="" width="50px" height="50px">odeweb
+            </a> <!-- <a class="  mx-3 btn  text2 text-light left  border-white" href="../index.html">Home</a> -->
+            <button class="btn ms-2 text2 left  text-light border-white" type="button" data-bs-toggle="collapse"
+                href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Menu
+            </button>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../html/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" href="../css/css.html">CSS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text" id="php" href="#">PHP</a>
+                    </li>
+                </ul>
+                <a class="btn text-white border border-white" href="../signup.html">SignUp</a>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <div class="pt-2 position-fixed w-10 bg-light h-100">
+            <h4 class="ms-4 fs-3 fw-semibold py-2 pe-5">PHP TUTORIAL</h4>
+            <div class="links">
+                <a href="php.html" id="phpactive1">PHP Home</a>
+                <a href="php_intro.html" id="phpactive2">PHP Intro</a>
+                <a href="php_install.html" id="phpactive3">PHP Install</a>
+                <a href="php_syntax.html" id="phpactive4">PHP Syntax</a>
+                <a href="php_comments.html" id="phpactive5">PHP Comments</a>
+                <a href="php_variables.html" id="phpactive6">PHP Variables</a>
+                <a href="php_variables_scope.html" id="phpactive7">PHP Variables Scope</a>
+
+                <a href="php_echo_print.html" id="phpactive8">PHP Echo and Print</a>
+                <a href="php_data_types.html" id="phpactive9">PHP Data Types</a>
+                <a href="php_strings.html" id="phpactive10">PHP Strings</a>
+                <a href="php_numbers.html" id="phpactive11">PHP Numbers</a>
+                <a href="php_math.html" id="phpactive12">PHP Math</a>
+                <a href="php_operators.html" id="phpactive13">PHP Operators</a>
+                <a href="php_if_else.html" id="phpactive14">PHP if...else...elseif</a>
+                <a href="php_switch.html" id="phpactive15">PHP Switch</a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- intro heading -->
+    <div class="text-start">
+        <h4 class="ps-3 ms-2 pt-4 pb-3 fs-2 fw-semibold">PHP Numbers
+
+        </h4>
+        <!-- Button -->
+        <div class="nextprev pb-3 mb-5 ms-2"> <a href="php_strings.html" class="left btn ms-3 fs-6">
+                &lt; Previous</a>
+            <a href="php_math.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+        </div>
+
+        <!--line1-->
+        <div class="container-fluid border border-start-0  pt-2">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="ps-3 fs-5 pt-2">In this chapter we will look in depth into Integers,
+                        Floats, and Number Strings.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--line2-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Numbers</h4>
+                    <p class="ps-3 fs-5 pt-2">One thing to notice about PHP is that it provides
+                        automatic data type conversion.</p>
+
+                    <p class="ps-3 fs-5 pt-2">So, if you assign an integer value to a variable, the
+                        type of that variable will automatically be an integer. Then, if you assign a string to the same
+                        variable, the type will change to a string.
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">This automatic conversion can sometimes break your code.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--line3-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Integers</h4>
+                    <p class="ps-3 fs-5 pt-2">2, 256, -256, 10358, -179567 are all integers.</p>
+
+                    <p class="ps-3 fs-5 pt-2">An integer is a number without any decimal part.</p>
+
+                    <p class="ps-3 fs-5 pt-2">An integer data type is a non-decimal number between
+                        -2147483648 and 2147483647 in 32 bit systems, and between -9223372036854775808 and
+                        9223372036854775807 in 64 bit systems. A value greater (or lower) than this, will be stored as
+                        float, because it exceeds the limit of an integer.</p>
+                    <p class="ps-3 fs-5 pt-2"><span class="fw-semibold">Note:</span> Another important
+                        thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the
+                        operands is a float (2.5).
+                    </p>
+                    <p class="ps-3 fs-5 pt-2">Here are some rules for integers:</p>
+                    <ul class="fs-5 ms-3">
+
+                        <li>An integer must have at least one digit</li>
+                        <li>An integer must NOT have a decimal point</li>
+                        <li>An integer can be either positive or negative</li>
+                        <li>Integers can be specified in three formats: decimal (10-based), hexadecimal (16-based -
+                            prefixed
+                            with 0x) or octal (8-based - prefixed with 0)</li>
+                    </ul>
+                    <p class="ps-3 fs-5 pt-2">PHP has the following predefined constants for integers:
+                    </p>
+                    <ul class="fs-5 ms-3">
+                        <li>PHP_INT_MAX - The largest integer supported</li>
+                        <li>PHP_INT_MIN - The smallest integer supported</li>
+                        <li>PHP_INT_SIZE - The size of an integer in bytes</li>
+                    </ul>
+
+                    <p class="ps-3 fs-5 pt-2">PHP has the following functions to check if the type of
+                        a variable is integer:</p>
+
+                    <ul class="fs-5 ms-3">
+                        <li>is_int()</li>
+                        <li>is_integer() - alias of is_int()</li>
+                        <li>is_long() - alias of is_int()</li>
+                    </ul>
+                    </li>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Check if the type of a variable is integer:</p>
+
+
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>bool(true) bool(false)</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="r">5985</span>;<br>
+                                    <span class="bk">var_dump(is_int($x));</span><br><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="r">59.85</span>;<br>
+                                    <span class="bk">var_dump(is_int($x));</span><br>
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line4-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Floats</h4>
+                    <p class="ps-3 fs-5 pt-2">A float is a number with a decimal point or a number in
+                        exponential form.</p>
+
+                    <p class="ps-3 fs-5 pt-2"> 2.0, 256.4, 10.358, 7.64E+5, 5.56E-5 are all floats.
+                    </p>
+
+                    <p class="ps-3 fs-5 pt-2">The float data type can commonly store a value up to
+                        1.7976931348623E+308 (platform dependent), and have a maximum precision of 14 digits.</p>
+
+                    <p class="ps-3 fs-5 pt-2"> PHP has the following predefined constants for floats
+                        (from PHP 7.2):</p>
+                    <ul class="fs-5 ms-3">
+                        <li> PHP_FLOAT_MAX - The largest representable floating point number</li>
+                        <li>PHP_FLOAT_MIN - The smallest representable positive floating point number</li>
+                        <li>PHP_FLOAT_MAX - The smallest representable negative floating point number</li>
+                        <li>PHP_FLOAT_DIG - The number of decimal digits that can be rounded into a float and back
+                            without
+                            precision loss</li>
+                        <li>PHP_FLOAT_EPSILON - The smallest representable positive number x, so that x + 1.0 != 1.0
+                        </li>
+                    </ul>
+
+                    <p class="ps-3 fs-5 pt-2"> PHP has the following functions to check if the type of
+                        a variable is float:</p>
+
+                    <ul class="fs-5 ms-3">
+                        <li>is_float()</li>
+                        <li>is_double() - alias of is_float()</li>
+                    </ul>
+
+                </div>
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Check if the type of a variable is float:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row ms-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>bool(true)</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="r">10.365</span>;<br>
+                                    <span class="bk">var_dump(is_float($x));</span><br>
+
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--line5-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Infinity</h4>
+                    <p class="ps-3 fs-5 pt-2">A numeric value that is larger than PHP_FLOAT_MAX is
+                        considered infinite.</p>
+
+                    <p class="ps-3 fs-5 pt-2">PHP has the following functions to check if a numeric
+                        value is finite or infinite:</p>
+                    <ul class="fs-5 ms-3">
+                        <li> is_finite()</li>
+                        <li> is_infinite()</li>
+                    </ul>
+                    <p class="ps-3 fs-5 pt-2">However, the PHP var_dump() function returns the data
+                        type and value:</p>
+                </div>
+
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="grey mt-2 ">
+                                <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                                <p class="ps-3 fs-5 pt-2">Check if a numeric value is finite or infinite:
+                                </p>
+                                <!--Output-->
+                                <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                                <div class="row mx-3">
+                                    <div class="col col-12 bg-white pt-3 fs-6">
+                                        <p>float(INF)</p>
+                                    </div>
+                                </div>
+                                <!--html-->
+                                <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                                <div class="row mx-3 text-dark">
+                                    <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                        <span class="r">&lt;?php</span><br>
+                                        <span class="bk">$x =</span>
+                                        <span class="r">1.9e411</span>;<br>
+                                        <span class="bk">var_dump(is_float($x));</span><br>
+
+                                        <span class="r">?&gt;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--line6-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP NaN</h4>
+                    <p class="ps-3 fs-5 pt-2">NaN stands for Not a Number.</p>
+
+                    <p class="ps-3 fs-5 pt-2">NaN is used for impossible mathematical operations.</p>
+
+                    <p class="ps-3 fs-5 pt-2">PHP has the following functions to check if a value is
+                        not a number:</p>
+                    <ul class="fs-5 ms-3">
+                        <li> is_nan()
+                        </li>
+                    </ul>
+
+                    <p class="ps-3 fs-5 pt-2"> However, the PHP var_dump() function returns the data
+                        type and value:</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Invalid calculation will return a NaN value:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>float(NAN)</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$x = acos(<span class="r">8</span>);</span>
+                                    <br>
+                                    <span class="bk">var_dump($x);</span><br>
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--line7-->
+        <div class="container-fluid border border-start-0 pt-4 mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Numerical Strings</h4>
+                    <p class="ps-3 fs-5 pt-2">The PHP is_numeric() function can be used to find
+                        whether a variable is numeric. The function returns true if the variable is a number or a
+                        numeric
+                        string, false otherwise.</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Check if the variable is numeric:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>bool(true)<br>
+                                        bool(true)<br>
+                                        bool(true)<br>
+                                        bool(false)</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="r">5985</span>;<br>
+                                    <span class="bk">var_dump(is_muneric($x));</span><br><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"&lt;br&gt;"</span>;<br><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="br">"5985"</span>;<br>
+                                    <span class="bk">var_dump(is_numeric($x));</span><br><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"&lt;br&gt;"</span>;<br><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="br">"59.85"</span> +
+                                    <span class="r">100</span>;<br>
+                                    <span class="bk">var_dump(is_numeric($x));</span><br><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"&lt;br&gt;"</span>;<br><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="br">"Hello"</span>;<br>
+                                    <span class="bk">var_dump(is_numeric($x));</span><br>
+
+
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid bg-primary bg-opacity-10 border-end border-primary mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-start pt-3 h-auto mt-2 lh-base ">
+                        <p class="ps-3 fs-5"><span class="fw-semibold">Note:</span> From PHP 7.0: The
+                            is_numeric() function will return FALSE for numeric strings in hexadecimal form (e.g.
+                            0xf4c3b00c), as
+                            they
+                            are
+                            no longer considered as numeric strings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--line7-->
+        <div class="container-fluid border border-start-0 pt-4 mt-4">
+            <div class="row">
+                <div class="col col-12">
+                    <h4 class="ps-3 fs-2">PHP Casting Strings and Floats to Integers</h4>
+                    <p class="ps-3 fs-5 pt-2">Sometimes you need to cast a numerical value into
+                        another data type.</p>
+
+                    <p class="ps-3 fs-5 pt-2">The (int), (integer), or intval() function are often
+                        used to convert a value to an integer.</p>
+                </div>
+
+                <!-- code1 -->
+                <div class="container-fluid bg-dark bg-opacity-10 border-end border-secondary mb-3">
+                    <div class="row">
+                        <div class="col col-12 mt-4">
+                            <h4 class="ps-3 fs-3 fw-semibold">Example</h4>
+                            <p class="ps-3 fs-5 pt-2">Cast float and string to integer:</p>
+                            <!--Output-->
+                            <h4 class="ps-3 py-2 fs-5 fw-semibold">OUTPUT</h4>
+                            <div class="row mx-3">
+                                <div class="col col-12 bg-white pt-3 fs-6">
+                                    <p>23465<br>
+                                        23465</p>
+                                </div>
+                            </div>
+                            <!--html-->
+                            <h4 class="ps-3 py-3 fs-5 fw-semibold">HTML</h4>
+                            <div class="row mx-3 text-dark">
+                                <div class=" col col-12 bg-white fs-6 py-2 ps-2 lh-base mb-5">
+                                    <span class="r">&lt;?php</span><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="r">23465.768</span>;<br>
+                                    <span class="bk">$int_cast = (int)$x;</span><br>
+                                    <span class="b">echo</span>
+                                    <span class="bk">$int_cast;</span><br><br>
+                                    <span class="b">echo</span>
+                                    <span class="br">"&lt;br&gt;"</span>;<br><br>
+                                    <span class="bk">$x =</span>
+                                    <span class="br">"23465.768"</span>;<br>
+                                    <span class="bk">$int_cast = (int)$x;</span><br>
+                                    <span class="b">echo</span>
+                                    <span class="bk">$int_cast;</span><br><br>
+                                    <span class="r">?&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Button -->
+    <div class="nextprev pb-5 ms-2 my-3">
+        <a href="php_strings.html" class="left btn ms-3 fs-6">
+            &lt; Previous</a>
+        <a href="php_math.html" class="right btn me-4 fs-6 "> Next &gt;</a>
+    </div>
+    <div class="text-center fs-6 fw-semibold my-3">&copy; 2023 Codeweb. All Rights Reserved</div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>
